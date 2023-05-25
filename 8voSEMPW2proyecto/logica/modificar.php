@@ -55,7 +55,7 @@
           
         </div>
         <div class="input-field col s6">
-          <input  id="remail" name="remail" type="email" class="validate" value="
+          <input  placeholder = "Correo" id="remail" name="remail" type="email" class="validate" value="
           <?php echo $resultado['email'];?>">
         </div> 
 
@@ -77,8 +77,10 @@
         <div class="col s12">
           <div class="btn waves-effect waves-light">
             <input name='modif' type="submit" class="validate" onclick="reload()" value="Actualizar" >
-
           </div>
+          <button type="submit" href="../principal.php" class="btn waves-effect waves-light">
+                  Cancelar
+            </button>
         </div>
       </div>
 
